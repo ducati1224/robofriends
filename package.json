@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://ducati1224.github.io/robofriends",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages --git https://github.com/ducati1224/robofriends.git -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
